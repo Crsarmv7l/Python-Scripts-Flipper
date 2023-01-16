@@ -5,7 +5,7 @@ After the work on the TPMS-Flipper project https://github.com/Crsarmv7l/TPMS-Fli
 
 All Python scripts contained here are my own work
 
-If you are attempting to spoof a Weather station, you must play these signals for 1-2min as they oftenupdate only every few minutes. I suggest using subgh playlist and repeats.
+If you are attempting to spoof a Weather station, you must play the signals you generate for 1-2min as they often update only every few minutes. I suggest using subghz playlist and repeats.
 
 - Code_gen from this project is used to generate the Flipper subs in conjunction with my scripts and timing setups https://github.com/triq-org/tx_tools
 - Protocol information is obtained from rtl_433 https://github.com/merbanan/rtl_433
