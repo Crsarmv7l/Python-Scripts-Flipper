@@ -7,5 +7,6 @@ All Python scripts contained here are my own work
 
 - Code_gen from this project is used to generate the Flipper subs in conjunction with my scripts and timing setups https://github.com/triq-org/tx_tools
 - Protocol information is obtained from rtl_433 https://github.com/merbanan/rtl_433
+- Evil Pete's ook to sub script is used to convert the final generated .cu8 to a flipper sub. https://github.com/evilpete/flipper_toolbox
 
 I make no promises as to the quality of the python on here, only that anything posted WILL generate a valid reading on rtl_433 when transmitted from the Flipper.
