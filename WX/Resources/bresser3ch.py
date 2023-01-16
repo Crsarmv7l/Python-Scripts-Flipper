@@ -8,16 +8,10 @@ def main():
     id = int(input('What is the ID number?\n'))
     id = format(id, '08b')
     
-    print('house= %s' % id)
-    
     flag = str('00')
-    
-    print('flag= %s' % flag)
     
     ch = int(input('What is the channel number?\n'))
     ch = format(ch, '02b')
-    
-    print('ch= %s' % ch)
     
     temp = float(input('Enter temp: 3 digits eg 74.4 Max is 140\n'))
     temp = round(temp, 1) + 90
@@ -30,11 +24,8 @@ def main():
     temp = str(temp).replace('0b','')
     temp = str(temp).zfill(12)
     
-    print('Temp = %s' % temp)
-    
     humid = int(input('What is the humidity in whole numbers?\n'))
     humid = format(humid, '08b')
-    print('humid= %s' % humid)
     
     flag = flag + ch
     
@@ -44,11 +35,6 @@ def main():
     byte3 = prechk[16:24]
     byte4 = prechk[24:32]
     
-    print('check= %s' % prechk)
-    print('byte1= %s' % byte1)
-    print('byte2= %s' % byte2)
-    print('byte3= %s' % byte3)
-    print('byte4= %s' % byte4)
     
     sum= (int(byte1, 2) + int(byte2, 2) + int(byte3, 2) + int(byte4, 2))& 0xFF
     sum= bin(sum)
